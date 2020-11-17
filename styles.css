@@ -1,0 +1,253 @@
+
+/* *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+} */
+header
+{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.container
+{
+    width: 90%;
+    margin: 0 auto;
+}
+nav
+{
+    width: 70%;
+    text-align: center;
+
+}
+nav > ul >li
+{
+    display: inline-block;
+    text-align: center;
+    margin: 14px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: green;
+}
+/* .actions > button:hover
+{
+    background-color: aqua;
+} */
+.actions{
+    width: 15%;
+}
+.actions *{padding: 10px;}
+a
+{
+    color: inherit;
+}
+
+#logo
+{
+    width: 15%;
+}
+
+/* button
+{
+    font-family: sans-serif;
+    color: white;
+    border-radius:12px ;
+    background-color: green; 
+    padding: 10px;
+} */
+nav > ul >li > a{
+    color: inherit;
+    text-decoration: none;
+}
+.actions > a {
+    color: green ;
+    text-decoration: none;
+}
+.actions > [type="button"]
+{
+    border-radius: 10px;
+    text-align: center;
+    font-style: normal;
+    padding: 5px;
+    color: white;
+    background: #025157;
+    
+}
+.Titulo
+{
+    /* display: inline-block; */
+    
+    /* background-color: steelblue; */
+    /* width: ;
+    height: ; */
+    padding: 0 15%;
+    justify-content: flex-start;
+}
+.h
+{
+    display: block;
+    margin:  auto ;
+    padding-right:80% ;
+    /* justify-content: flex-start; */
+}
+.Titulo > .boton > p
+{
+    font-size: 10px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+[type = "button"]
+{
+    width: inherit;
+    background:  #67b54b;
+    border-radius: 8px;
+    width: auto;
+    height: 35px;
+    border: 1px solid transparent;
+    
+}
+img
+{
+    vertical-align: text-bottom ;
+    max-width: 100%;}
+.imagenes
+{
+    display: flexbox;
+    text-align: center;
+    margin: 8%;
+    justify-content: space-around;
+    
+    
+}
+.imagenes > p 
+{
+    margin: 20px;
+}
+.imagenes > img
+{
+    margin: 2%;    
+}
+.item-header
+{
+    text-align: center;
+    padding: 2%;
+    margin: 2%;
+}
+.item-cuadros
+{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid transparent;
+    justify-content: center;
+    
+}
+.item-cuadros > p{
+    border: 1px solid #dadada;
+    
+}
+.container-matcha
+{
+   margin: auto;
+}
+a
+{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+/* article
+{
+    background-color: steelblue;
+    margin: 10px;
+    width: 40%;
+    height: 200px;
+} */
+i
+{
+    opacity: .4;
+    color: rgb(74, 74, 74);
+}
+.boton > p 
+{
+    opacity: .4;
+    color: rgb(74, 74, 74);
+}
+.item-cuadros > p
+{
+    margin: auto 16px;
+}
+.titulo
+{
+    color: #025157;
+}
+.tools-titulo
+{
+    text-align: center;
+    margin-top: 5%;
+    padding: 0 15%;
+
+}
+.tools
+    {
+        border: 1px solid transparent;
+        display: grid;
+        justify-content: center;
+        align-content:center ;
+        grid-template-columns: repeat( auto-fit, minmax(150px, 180px) );
+        gap: 40px;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .tools__title{
+        font-size: .8rem;
+        text-align: center;
+    }
+    .tools__paragraph{
+        font-size: 11px;
+        text-align: center;
+        color:gray;
+
+    }
+    .tools > div
+    {
+        border: 1px solid #dadada;
+    }
+    @media (max-width: 991px) {
+        nav{display: none;}
+        .container > .actions
+        {
+            text-align: center;
+            /* justify-content: flex-end; */
+            align-items: flex-end;
+            
+        }
+        .container
+        {
+            display: flex;
+            justify-content: space-between;
+        }
+        .Titulo
+        {
+            margin: auto 5%;
+            padding: 0;
+            
+        }
+        .imagenes
+        {
+            
+        }
+        .imagenes > img
+        {
+            display: inline-flex;
+            flex-direction: row;
+            width: 10%;
+        }
+        .h{padding-right: 0%;}
+      }
